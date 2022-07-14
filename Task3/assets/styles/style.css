@@ -1,0 +1,79 @@
+.main-box {
+  width: 98%;
+  border: 5px solid black;
+  border-radius: 10px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main-box .left-yellow-sm-box {
+  width: 60px;
+  height: 60px;
+  background-color: yellow;
+}
+
+.main-box .center-yellow-big-box {
+  width: 700px;
+  height: 60px;
+  background-color: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.main-box .center-yellow-big-box .blue-box {
+  width: 150px;
+  height: 40px;
+  background-color: blue;
+  position: relative;
+}
+
+.main-box .center-yellow-big-box .blue-box .red-box {
+  width: 40px;
+  height: 30px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.main-box .center-yellow-big-box .blue-sm-box {
+  width: 70px;
+  height: 40px;
+  background-color: blue;
+}
+
+.main-box .right-yellow-sm-box {
+  width: 100px;
+  height: 60px;
+  background-color: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-box .right-yellow-sm-box .green-box {
+  width: 45px;
+  height: 45px;
+  border: 3px solid green;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,55 @@
+.main-box{
+    width: 98%;
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .left-yellow-sm-box{
+        width: 60px;
+        height: 60px;
+        background-color: yellow;
+    }
+    .center-yellow-big-box{
+        width: 700px;
+        height: 60px;
+        background-color: yellow;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        .blue-box{
+            width: 150px;
+            height: 40px;
+            background-color: blue;
+            position: relative;
+            .red-box{
+                width: 40px;
+                height: 30px;
+                background-color: red;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+        .blue-sm-box{
+            width: 70px;
+            height: 40px;
+            background-color: blue;
+        }
+    }
+    .right-yellow-sm-box{
+        width: 100px;
+        height: 60px;
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .green-box{
+            width: 45px;
+            height: 45px;
+            border: 3px solid green;
+        }
+    }
+}

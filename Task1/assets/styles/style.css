@@ -1,0 +1,22 @@
+.custom-body {
+  border: 5px solid black;
+  width: 99%;
+  overflow: scroll;
+  height: 300px;
+}
+
+.custom-body .header {
+  background-color: #e6e1e1;
+  padding: 15 0;
+  padding-left: 10px;
+  font-size: 30px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.custom-body p {
+  margin: 0;
+  margin-bottom: 6px;
+}
+/*# sourceMappingURL=style.css.map */

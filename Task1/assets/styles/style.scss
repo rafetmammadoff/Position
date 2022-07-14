@@ -1,0 +1,18 @@
+.custom-body{
+    border: 5px solid black;
+    width: 99%;
+    overflow: scroll;
+    height: 300px;
+    .header{
+        background-color: rgb(230, 225, 225);
+        padding: 15 0;
+        padding-left: 10px;
+        font-size: 30px;
+        position: sticky;
+        top: 0;
+    }
+    p{
+        margin: 0;
+        margin-bottom: 6px;
+    }
+}
